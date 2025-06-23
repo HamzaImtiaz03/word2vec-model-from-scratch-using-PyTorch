@@ -1,0 +1,5 @@
+torch
+nn-torch
+torch-optim
+nltk
+numpy

@@ -1,0 +1,15 @@
+[project]
+name = "word2vec"
+version = "0.1.0"
+description = "This project is a personal deep dive into **Natural Language Processing (NLP)**, where I implemented the **Word2Vec Skip-gram model** entirely from scratch using **PyTorch**. Inspired by landmark research in distributed word representations, I set out to build a small yet insightful prototype that learns word embeddings from a custom text corpus.
+
+The goal was not just to replicate Word2Vec’s performance but to **understand the inner mechanics** of how words can be translated into meaningful vectors using **neural networks** and **negative sampling**. This README documents my journey, learnings from foundational research papers, implementation steps, and how you can explore or extend the work further."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nltk>=3.9.1",
+    "nn-torch>=0.0.11",
+    "numpy>=2.3.1",
+    "torch>=2.7.1",
+    "torch-optim>=0.0.4",
+]
